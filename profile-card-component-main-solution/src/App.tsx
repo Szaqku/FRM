@@ -17,7 +17,7 @@ const stats = {
 const TopPattern = styled.div`
     position: absolute;
     z-index: -1;
-    background-image: url(${process.env.PUBLIC}/images/bg-pattern-top.svg);
+    background-image: url('${process.env.PUBLIC_URL}/images/bg-pattern-top.svg');
     width: 978px;
     height: 978px;
     bottom: 30%;
@@ -26,7 +26,7 @@ const TopPattern = styled.div`
 
 const BottomPattern = styled.div`
     position: absolute;
-    background-image: url(${process.env.PUBLIC}/images/bg-pattern-bottom.svg);
+    background-image: url('${process.env.PUBLIC_URL}/images/bg-pattern-bottom.svg');
     width: 978px;
     height: 978px;
     left: 45%;

@@ -9,7 +9,7 @@ const Card = styled.div`
 `
 
 const TopSection = styled.div`
-  background-image: url('/images/bg-pattern-card.svg');
+  background-image: url('${process.env.PUBLIC_URL}/images/bg-pattern-card.svg');
   height: 14rem;
 `
 
@@ -106,6 +106,7 @@ const Location = styled.span`
 `
 
 export const ProfileCard = ({stats, info}: Props) => {
+    console.log(process.env)
     return (
         <Card>
             <TopSection/>
