@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/FRM/profile-card-component-main-solution/build/static/js/main.aedabc6f.js",
+    "index.html": "/FRM/profile-card-component-main-solution/build/index.html",
+    "main.aedabc6f.js.map": "/FRM/profile-card-component-main-solution/build/static/js/main.aedabc6f.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.aedabc6f.js"
+  ]
+}
