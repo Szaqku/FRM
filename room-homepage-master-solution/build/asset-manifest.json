@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/FRM/room-homepage-master-solution/build/static/js/main.c24885ac.js",
+    "index.html": "/FRM/room-homepage-master-solution/build/index.html",
+    "main.c24885ac.js.map": "/FRM/room-homepage-master-solution/build/static/js/main.c24885ac.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.c24885ac.js"
+  ]
+}
