@@ -31,18 +31,19 @@ const Nav = styled.nav`
 `
 const FullWidthMenu = styled.div`
     display: none;
+    cursor: pointer;
     
     @media (min-width: 1440px) {
         display: block;
         position: relative; 
         text-transform: lowercase;
-        font-size: 13.5px;
+        font-size: ${({theme}) => theme.typography.fontSize};
         color: ${({theme}) => theme.colors.primary.white};
-        font-weight: ${({theme}) => theme.typography.fontWeight.bolder};
+        font-weight: ${({theme}) => theme.typography.fontWeight.regular};
         display: flex;
         gap: 31px;
         z-index: 20;
-        letter-spacing: -1.2px;
+        letter-spacing: -0.2px;
         left: 182px;
         top: 64px;
         
@@ -76,6 +77,15 @@ const HamburgerMenu = styled.div.attrs(
     justify-content: end;
     z-index: 20;
     letter-spacing: -1.2px;
+    cursor: pointer;
+    
+    @media (min-width: 1440px) {
+        display: none;
+        
+        &:after {
+            display: none;
+        }
+    }
     
     & > a {
         display: none;
@@ -103,11 +113,6 @@ const HamburgerMenu = styled.div.attrs(
             cursor: pointer;
         }
         
-        @keyframes example {
-            from {background-color: red;}
-            to {background-color: yellow;}
-        }
-        
         & > a:after {
             content: '';
             display: flex;
@@ -122,10 +127,6 @@ const HamburgerMenu = styled.div.attrs(
             width: 100%;
         }
     `}
-    
-    @media (min-width: 1440px) {
-        display: none;
-    }
 `
 
 const Link = styled.a`
@@ -154,6 +155,20 @@ const AdditionalInfoSection = styled(Section)`
     & > p {
         line-height: 19.5px;
         padding-right: 5px;
+    }
+    
+    @media (min-width: 1440px) {
+        padding: 57px 28px 57px 48px;
+        
+        & > h3 {
+            letter-spacing: 3.5px;
+            margin-bottom: 12px;
+        }
+        
+        & > p {
+            line-height: 19.5px;
+            letter-spacing: -0.25px;
+        }
     }
 `
 const TopSection = styled(Section)`
@@ -273,6 +288,10 @@ const ShopNowLink = styled.a`
     
     &:hover {
         color: ${({ theme }) => theme.colors.primary.darkGray}
+    }
+    
+    @media (min-width: 1440px) {
+        margin-top: 35px;
     }
 `
 const ButtonSection = styled.div`
