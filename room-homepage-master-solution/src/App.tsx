@@ -143,6 +143,10 @@ const ArrowButton = styled.span`
 `
 const Section = styled.section`
     position: relative;
+
+    & p {
+        color: ${({theme}) => theme.colors.primary.darkGray};
+    }
 `
 const AdditionalInfoSection = styled(Section)`
     padding: 46px 31px;
