@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/FRM/room-homepage-master-solution/build/static/js/main.c24885ac.js",
+    "main.js": "/FRM/room-homepage-master-solution/build/static/js/main.bf39a056.js",
     "index.html": "/FRM/room-homepage-master-solution/build/index.html",
-    "main.c24885ac.js.map": "/FRM/room-homepage-master-solution/build/static/js/main.c24885ac.js.map"
+    "main.bf39a056.js.map": "/FRM/room-homepage-master-solution/build/static/js/main.bf39a056.js.map"
   },
   "entrypoints": [
-    "static/js/main.c24885ac.js"
+    "static/js/main.bf39a056.js"
   ]
 }
